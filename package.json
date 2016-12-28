@@ -1,6 +1,6 @@
 {
   "name": "mali-tojson",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Mali middleware that automatically calls toJSON on response",
   "main": "index.js",
   "repository": {
