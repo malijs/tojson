@@ -1,0 +1,41 @@
+{
+  "name": "mali-tojson",
+  "version": "0.0.0",
+  "description": "Mali middleware that automatically calls toJSON on response",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malijs/tojson.git"
+  },
+  "author": {
+    "name": "Bojan D.",
+    "email": "dbojan@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/malijs/tojson/issues"
+  },
+  "homepage": "https://github.com/malijs/tojson",
+  "keywords": [
+    "mali",
+    "grpc",
+    "service",
+    "server",
+    "microservice"
+  ],
+  "scripts": {
+    "docs": "jsdoc2md index.js --heading-depth 3 | md-wrap-code > README.md"
+  },
+  "dependencies": {
+    "mali-transform": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "jsdoc-to-markdown": "^2.0.1",
+    "md-wrap-code": "^0.1.1",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
