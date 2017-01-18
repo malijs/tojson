@@ -24,6 +24,5 @@ function handler(ctx) {
   ctx.res = obj // password will not be in the payload to client
 }
 
-app.use('fn', toJSON, handler)
+app.use('fn', toJSON(), handler)
 ```
-
