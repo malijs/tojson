@@ -1,6 +1,8 @@
 <a name="module_mali-tojson"></a>
 
 ### mali-tojson
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/malijs/tojson.svg)](https://greenkeeper.io/)
 Mali <code>toJSON</code> middleware. If the response object has a <code>toJSON</code> function it's executed upon
 payload. Only applies for <code>UNARY</code> and <code>REQUEST_STREAM</code> call types.
 
