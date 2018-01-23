@@ -30,7 +30,7 @@
     "mali-transform": "^0.1.0"
   },
   "devDependencies": {
-    "jsdoc-to-markdown": "^3.0.3",
+    "jsdoc-to-markdown": "^4.0.1",
     "md-wrap-code": "^0.1.1",
     "standard": "^10.0.0"
   }
