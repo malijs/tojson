@@ -1,13 +1,12 @@
-<a name="module_mali-tojson"></a>
+<a name="module_@malijs/tojson"></a>
 
-### mali-tojson
+### @malijs/tojson
 Mali <code>toJSON</code> middleware. If the response object has a <code>toJSON</code> function it's executed upon
 payload. Only applies for <code>UNARY</code> and <code>REQUEST_STREAM</code> call types.
 
 **Example**  
-
 ```js
-const toJSON = require('mali-tojson')
+const toJSON = require('@malijs/tojson')
 
 function handler(ctx) {
   const obj = {
